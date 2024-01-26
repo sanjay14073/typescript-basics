@@ -20,6 +20,12 @@ Welcome to the TypeScript Tutorial for Beginners! This tutorial provides a compr
   - [String Methods](#string-methods)
 - [Object Destructuring](#object-destructuring)
   - [Interfaces](#interfaces)
+- [Object-Oriented Programming (OOP)](#object-oriented-programming-oop)
+  - [Classes](#classes)
+  - [Inheritance](#inheritance)
+  - [Abstract Classes](#abstract-classes)
+  - [Interfaces](#interfaces)
+- [Running the Code](#running-the-code)
 - [Running the Code](#running-the-code)
 - [Feedback and Contributions](#feedback-and-contributions)
 
