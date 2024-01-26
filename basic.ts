@@ -30,8 +30,40 @@ function FuncOne() {
     console.log(typeof b1 + ` b1=${b1}`);
     console.log(typeof s1 + ` s1=${s1}`);
 }
-
-
+//if in typescript
+let age:number=18;
+if(age>=18){
+    console.log("You are eligible to vote")
+}
+//if else
+if(age>=60){
+    console.log("You are a senior citizen") 
+}else{
+    console.log("You are not a senior citizen");
+}
+//Exercise to implement if else if
+//loops in typescript
+//The while,for dowhile
+//while loop
+let i:number=1;
+console.log("Result from for loop")
+while(i<=5){
+    console.log(i);
+    i+=1;
+}
+//the for loop
+i=1;
+console.log("Result from while loop")
+for(i=1;i<=5;i++){
+    console.log(i);
+    i+=1;
+}
+//do while loop
+console.log("Result from do While loop")
+do{
+console.log(i);
+i+=1
+}while(i<4);
 //call the functon FuncOne()
 FuncOne()
 
@@ -197,5 +229,7 @@ console.log("u1 is of the type "+ typeof(u1))
 u1="hi ji"
 console.log("u1 is of the type "+ typeof(u1))
 //These are other key features to be known in TypeScript
-
-//Classes and objects in Type Script
+//another easy concept chaining to follow
+//this is the example for chaining
+console.log(myarr3.sort().map((a:number)=>{return a*a}))
+//Classes and objects in Type Script will follow in oopsints.ts file
